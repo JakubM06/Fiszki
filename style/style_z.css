@@ -1,0 +1,18 @@
+#main_pg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto;
+}
+html {
+  overflow: auto;
+  min-height: 100%;
+}
+.side1,
+.side2 {
+  display: none;
+}
+.task{
+  cursor: pointer;
+  background-color: #fc6128;
+}

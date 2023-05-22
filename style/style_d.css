@@ -1,0 +1,126 @@
+body {
+  padding-bottom: 50px;
+}
+html {
+  overflow-y: scroll;
+}
+#navbuttons {
+  width: 98%;
+}
+#plus {
+  background-color: #fc6128;
+  height: 60px;
+  width: 400px;
+  border-radius: 12px;
+  font-size: 30px;
+  color:#a53e19;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  
+}
+#main_pg {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: 5s;
+  height: auto;
+  height: 60%;
+
+}
+#fiszka {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+#fiszka textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 60%;
+  color: black;
+  text-align: center;
+  resize: none;
+  overflow: hidden;
+}
+#flip {
+  height: 100%;
+  background-color: #fc6128;
+  border: none;
+  color: white;
+  border-radius: 0px 0px 50px 50px;
+}
+#flip:hover {
+  cursor: pointer;
+}
+#tekst {
+  padding: 50% 0;
+}
+#submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question,
+.anwser {
+  height: 50px;
+  width: 400px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  border-radius: 12px;
+}
+#created {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.question {
+  background-color: #fc6128;
+  color:#a53e19;
+}
+.anwser {
+  background-color: #292929;
+  color:white;
+}
+#name {
+  width: 400px;
+  border-radius: 12px;
+}
+#send {
+  background-color: #fc6128;
+  color:#a53e19;
+  border-radius: 12px;
+  border: none;
+  width: 400px;
+  margin-top: 5px;
+}
+#name,
+#send,
+label {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 768px) {
+  #plus {
+    border-radius: 0;
+  }
+}
+.invisible{
+  display: none;
+}
+#name {
+  cursor: default;
+  text-align: center;
+}

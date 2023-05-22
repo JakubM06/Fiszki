@@ -1,0 +1,141 @@
+/* color palette:
+#9E1B5F purple-pink
+#7D1AA1 dark purple
+#341D8A dark blue
+#1A42A1 light blue
+#177D96 turqoise
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Playfair+Display&family=Source+Sans+Pro:wght@700&display=swap');
+html {
+  font-family: 'Playfair Display', sans-serif;
+  overflow: hidden;
+  color: black;
+}
+* {
+  font-size: 30px;
+}
+body {
+  margin: 0;
+  background-color: #ff7f50;
+}
+#center_nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#nav {
+  width: 80%;
+  height: 60px;
+  background-color: #292929;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0px 0px 12px 12px;
+}
+#navbuttons {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#navbuttons button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+#crt_task {
+  background-color: #fc6128;
+  color: #a53e19;
+  border: none;
+  border-radius: 0 0 12px 0;
+  padding: 5px;
+}
+#main_pg {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 1000px;
+}
+#main_pg div {
+  margin: 2%;
+}
+#main_txt {
+  width: 100%;
+}
+#languages {
+  text-align: center;
+}
+footer {
+  background-color: #292929;
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  text-align: center;
+}
+a:active,
+a:hover,
+a:checked,
+a {
+  font-family: 'Playfair Display', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+#searchbar {
+  background-color: white;
+  width: 60%;
+  border-radius: 50px;
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+#searchtxt,
+#searchtxt:focus {
+  outline: none;
+  border: none;
+  background: none;
+  width: 95%;
+}
+#languages {
+  opacity: 60%;
+  font-size: 40px;
+}
+#logo {
+  height: 55px;
+  margin-left: 5px;
+}
+#crt_href {
+  color: #a53e19;
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.task {
+  background-color: rgba(125, 10, 105, 1);
+  border-radius: 12px;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #nav {
+    width: 100%;
+    border-radius: 0;
+  }
+  #crt_task {
+    border-radius: 0;
+  }
+  #logo {
+    display: none;
+  }
+}
