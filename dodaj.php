@@ -15,8 +15,8 @@
         <header id="nav" class="unselectable">
             <img src="./pictures/logo.png" alt="logo" id="logo" />
             <div id="navbuttons">
-                <button><a href="index.html">Główna</a></button>
-                <button><a href="zadania.php">Zadania</a></button>
+                <button><a href="./index.html">Główna</a></button>
+                <button><a href="./zadania.php">Zadania</a></button>
             </div>
         </header>
     </div>

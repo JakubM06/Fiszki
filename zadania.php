@@ -19,7 +19,7 @@
       <header id="nav" class="unselectable">
         <img src="./pictures/logo.png" alt="logo" id="logo" />
         <div id="navbuttons">
-          <button><a href="index.html">Główna</a></button>
+          <button><a href="./index.html">Główna</a></button>
         </div>
         <button id="crt_task">
           <a href="dodaj.php" id="crt_href"><b>+ZADANIE</b></a>
